@@ -34,7 +34,7 @@ class MermaidPreprocessor(Preprocessor):
         is_mermaid = False
         for line in lines:
             # Strip non printable characters
-            line = strip_notprintable(line)
+            #line = strip_notprintable(line)
             # Wait for starting line with MermaidRegex (~~~ or ``` following by [mM]ermaid )
             if not in_mermaid_code:
                 m_start = MermaidRegex.match(line)
