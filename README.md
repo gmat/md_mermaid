@@ -1,3 +1,5 @@
+fork to remove call of strip_notprintable(). This brokes unicode document and don't how it could be useful.
+
 # md_mermaid
 
 mermaid extension for Python-Markdown to add support for mermaid graph inside markdown file
